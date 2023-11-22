@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.section{
+   height: 100vh;
+width :100%; 
+}
+.main{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+.image{
+border-bottom-right-radius: 100%;
+background: linear-gradient(45deg,#ff8000,#ff8000);
+height: auto;
+width: 50%;
+}
+
+.image img{
+margin-top: 60px;
+height:500px ;
+width:100%;
+}
+
+.holder
+{
+    height: 100%;
+    width: 50%;
+    display: grid;
+    justify-content:center ;
+    margin-top: 40px;
+}
+
+.head h1{
+    font-weight: bold;
+   font-size: 40px;
+    color: rgb(82, 82, 82);
+    text-align: center;
+}   
+
+input{
+max-width: 380px;
+    width: 100%;    
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    height: 55px;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+    border: none;
+
+}
+.form{
+    height: 350px;
+    width: 100%;
+line-height: 70px;
+border-radius: 15px;
+
+
+}
+.name{
+height: 40px;
+width: 44%;
+display: inline-block;
+
+}
+.number{
+    height: 40px;
+    width: 44%;
+display: inline-block;
+
+
+
+}
+
+.email{
+    height: 50px;
+    display: inline-block;
+ width: 93%;
+
+
+}
+.utr{
+    height: 50px;
+    width: 44%;
+    display: inline-block;  
+
+
+}
+.transaction{
+    height: 50px;
+width: 44%;
+display: inline-block;
+
+
+}
+.pay-now{
+margin-top: 30px;
+    width: 100%;
+display: grid;
+justify-content: center;
+
+}
+.pay-now button{
+    width: 150px;
+   background: linear-gradient(45deg, #ff0000, #ffa200);
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+   font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.pay-now button:hover{
+    background: linear-gradient(90deg,#ffa200,#ff0000);  
+
+}
+/* ####################################################                 ############################################# */
+
+
+/*********************************************************                **********************************************/
+
+@media (max-width:870px) {
+.section{
+    height: auto;
+}
+.main{
+    display: grid;
+justify-content: center;
+width: 100%;
+}
+.form{
+margin: 0;
+}
+.holder{
+    width: 100%;
+    margin-top: 0px;
+}
+.image{
+border-bottom-left-radius: 100%;
+width: 1017px;
+display: grid;
+justify-content: center;
+}
+.image img{
+margin-top:0px;
+height:250px;
+width:50%;
+}
+
+}
+@media (max-width:550px){
+.main{
+    margin-left: 100px;
+}
+.image img{
+margin-left: 50px;
+}
+}
